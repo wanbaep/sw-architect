@@ -1,8 +1,9 @@
 # UML (Unified Modeling Language)
 
 ### Use case Diagram
+<div hidden>
 ```plantuml
-@startuml
+@startuml firstDiagram
 left to right direction
 skinparam packageStyle rectangle
 actor customer
@@ -15,6 +16,9 @@ rectangle checkout {
 }
 @enduml
 ```
+</div>
+
+![](firstDiagram.svg)
 
 ### Sequence Diagram
 ```plantuml
